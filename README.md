@@ -13,6 +13,6 @@ This is a personal repository for tracking problems and solutions that I've come
 - Solution: 
   - [https://stackoverflow.com/questions/16432071/how-to-fix-homebrew-permissions](https://stackoverflow.com/questions/16432071/how-to-fix-homebrew-permissions)
    
-	   ``` 
-		sudo chown -R $(whoami) $(brew --prefix)/*
-		```
+	``` 
+	sudo chown -R $(whoami) $(brew --prefix)/*
+	```
