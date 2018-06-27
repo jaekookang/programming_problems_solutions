@@ -16,6 +16,7 @@ This is a personal repository for tracking problems and solutions that I've come
 	``` 
 	sudo chown -R $(whoami) $(brew --prefix)/*
 	```
+	
 # Issue 02:
 - Problem: Installing specific version of boost
 - Date: 2018-06-22 Friday
@@ -70,3 +71,32 @@ This is a personal repository for tracking problems and solutions that I've come
 	```
 - References: 
 	- [http://www.alexhadik.com/blog/2015/1/29/using-socketio-with-python-and-flask-on-heroku](http://www.alexhadik.com/blog/2015/1/29/using-socketio-with-python-and-flask-on-heroku)
+
+	
+# Issue 04:
+- Issue: binding opencv3 on python3 (not using brew python3, but using anaconda python3)
+- Date: 2018-06-27 Wednesday
+- Environment: macOS High Sierra v10.13.5
+	- conda==4.5.4 (anaconda3)
+	- pip==10.0.1 (anaconda3)
+- Procedure:
+
+	```
+	# 1. (MUST) Create virtual environment with python3.5 and conda
+	$ conda create -n opencv python==3.5.5 conda   # for example
+	$ source activate opencv
+	
+	# 2. Install opencv3
+	$ conda install -c menpo opencv3
+	
+	# 3. Test
+	$ python
+	>> import cv2
+	>> cv2.__version__  # e.g., '3.1.0'
+	```
+
+- Note:
+	- If you are using openface, install opencv3 using homebrew as the instruction tells you. You have to bind brew-installed opencv3 to python3, but python3 has to be homebrew-installed, which might make your python version complicated. I preferred sticking to anaconda python3.
+	
+- References:
+	- [https://stackoverflow.com/questions/38787748/installing-opencv-3-1-with-anaconda-python3](https://stackoverflow.com/questions/38787748/installing-opencv-3-1-with-anaconda-python3)
