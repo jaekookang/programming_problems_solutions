@@ -2,7 +2,15 @@
 
 This is a personal repository for tracking problems and solutions that I've come across mostly while programming.
 
-# Issue 01:
+- [Issue-01](## Issue 01): Installing opencv3 on macOS using brew
+- [Issue-02](## Issue 02): Installing boost
+- [Issue-03](## Issue 03): Deploying Flask app on Heroku
+- [Issue-04](## Issue 04): Binding opencv3 with python3
+
+
+---
+
+## Issue 01:
 - Problem: brew error after `brew install opencv3`.
 
 	```
@@ -17,7 +25,7 @@ This is a personal repository for tracking problems and solutions that I've come
 	sudo chown -R $(whoami) $(brew --prefix)/*
 	```
 	
-# Issue 02:
+## Issue 02:
 - Problem: Installing specific version of boost
 - Date: 2018-06-22 Friday
 - Environment: macOS High Sierra v10.13.5
@@ -39,7 +47,7 @@ This is a personal repository for tracking problems and solutions that I've come
 		export BOOST_ROOT="/usr/local/Cellar/boost@1.59/1.59.0"
 		```
 
-# Issue 03:
+## Issue 03:
 - Problem: Deploying Flask app using Heroku
 - Date: 2018-06-26 Tuesday
 - Environment: macOS High Sierra v10.13.5
