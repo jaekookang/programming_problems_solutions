@@ -2,10 +2,10 @@
 
 This is a personal repository for tracking problems and solutions that I've come across mostly while programming.
 
-- [Issue-01](## Issue 01): Installing opencv3 on macOS using brew
-- [Issue-02](## Issue 02): Installing boost
-- [Issue-03](## Issue 03): Deploying Flask app on Heroku
-- [Issue-04](## Issue 04): Binding opencv3 with python3
+- [Issue-01](##Issue 01): Installing opencv3 on macOS using brew
+- [Issue-02](##Issue 02): Installing boost
+- [Issue-03](##Issue 03): Deploying Flask app on Heroku
+- [Issue-04](##Issue 04): Binding opencv3 with python3
 
 
 ---
